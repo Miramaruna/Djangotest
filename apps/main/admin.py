@@ -1,5 +1,5 @@
 from django.contrib import admin
-from app.models import Main
+from apps.main.models import Main
 
 # Register your models here.
 

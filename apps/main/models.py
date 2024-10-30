@@ -11,3 +11,10 @@ class Main(models.Model):
         max_length=255,
         verbose_name='Заголовок сайта'
     )
+
+    def __str__(self):
+        return self.Name
+    
+    class Meta:
+        verbose_name = "Основная настройка"
+        verbose_name_plural = "Основные настройки"
